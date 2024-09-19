@@ -212,7 +212,6 @@ class SurveyController extends Controller
      * @param $data
      * @return mixed
      * @throws \Illuminate\Validation\ValidationException
-     * @author Zura Sekhniashvili <zurasekhniashvili@gmail.com>
      */
     private function createQuestion($data)
     {
@@ -243,7 +242,6 @@ class SurveyController extends Controller
      * @param                            $data
      * @return bool
      * @throws \Illuminate\Validation\ValidationException
-     * @author Zura Sekhniashvili <zurasekhniashvili@gmail.com>
      */
     private function updateQuestion(SurveyQuestion $question, $data)
     {
@@ -272,7 +270,6 @@ class SurveyController extends Controller
      *
      * @param $image
      * @throws \Exception
-     * @author Zura Sekhniashvili <zurasekhniashvili@gmail.com>
      */
     private function saveImage($image)
     {
